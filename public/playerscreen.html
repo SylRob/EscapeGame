@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1, minimal-ui" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>ESCAPE GAME >> Controller</title>
+
+<link rel="stylesheet" href="/css/style.css" charset="utf-8" media="all" />
+
+
+
+</head>
+ 
+    <body>
+  <header></header>
+  
+  <section>
+    
+    <div id="gamePad">
+        <div id="messageArea"></div>
+        <div id="tactilBlock"></div>
+    </div>
+    <div id="whatIsYourNickname">
+        <div class="inner">
+            <div id="nickName">
+                <h2>What is your NickName</h2>
+                <input type="text" id="input_nickName" val="" maxlength="12" />
+            </div>
+            
+            <div id="colorChoice">
+                <h1>Pick up a color !</h1>
+                <a href="#" id="red"></a>
+                <a href="#" id="blue"></a>
+                <a href="#" id="green"></a>
+                <a href="#" id="yellow"></a>
+                <a href="#" id="pink"></a>
+                <a href="#" id="orange"></a>            
+            </div>
+        </div>
+    </div>
+    
+    <div id="tryAgain">
+        <div class="inner">
+            
+            <div id="score">
+                <h2>Your score</h2>
+                <p class="playerScore"></p>
+            </div>
+            
+            <div id="retry">
+                <h2>Want To Try Again ??</h2>
+                <button>OK</button>
+            </div>
+            
+            <div id="ranking"></div>
+            
+        </div>
+    </div>
+    
+    <div id="freeBeer">
+        
+        <div class="inner">
+            <div id="youWonABeer">
+                <p>show this screen to the bartender to get a free beer</p>
+                
+                <button>I NEED A BEER</button>
+            </div>
+            
+            <div id="freeBeerThx">
+                Thank you for Playing !!
+            </div>
+            
+        </div>
+        
+    </div>
+    
+  </section>
+  
+  <footer>
+    <script src="/js/lib/jquery-2.1.1.min.js"></script>
+    <script src="/js/playerscreen/Player.js"></script>
+    <script src="/js/playerscreen/GamePad.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/playerscreen/script.js"></script>
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

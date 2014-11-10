@@ -1,0 +1,252 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -o-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+section {
+    width: 100%;
+    height: 99.79vh;
+    position: relative;
+}
+
+input[type="text"] {
+    height: 2.5em;
+    width: 80%;
+}
+
+input[type="button"], button {
+    height: 2em;
+    font-size: 1.5em;
+    width: 80%;
+}
+
+h1, h2, p {
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    font-size: 2em;
+}
+
+.playerScore {
+    color: #FFFFFF;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#gamePlateform {
+    width: 100%;
+    height: 100%;
+}
+
+
+#whatIsYourNickname, #tryAgain, #freeBeer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    padding: 5%;
+    overflow: auto;
+    z-index: 98;
+    text-align: center;
+    display: table;
+}
+
+#tryAgain, #freeBeer {
+    display: none;
+}
+
+#freeBeer {
+    background-color: #FAC728;
+}
+
+#freeBeer .inner > p {
+    margin: 10% 0;
+}
+
+#freeBeerThx, #youWonABeer {
+    color: #ffffff;
+    /*display: table-cell;*/
+    display: none;
+    font-size: 5em;
+    font-weight: bold;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#youWonABeer {
+    display: table-cell;
+    font-size: 1.2em;
+}
+
+#youWonABeer button {
+    color: #FFFFFF;
+}
+
+#tryAgain .inner, #freeBeer .inner {
+    height: 100%;
+    overflow: visible;
+    display: table;
+    width: 100%;
+}
+
+#score, #retry {
+    display: table-row;
+    height: 25%;
+    margin-bottom: 5%;
+}
+
+#whatIsYourNickname .inner {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    width: 100%;
+}
+
+#nickName {
+    margin-bottom: 10%;
+}
+
+#colorChoice a {
+    display: inline-block;
+    width: 30%;
+    height: 50px;
+    margin: 0 2% 5% 0;
+}
+
+#red {
+    background-color: #FF3204;
+}
+#blue {
+    background-color: #90FFBF;
+}
+#green {
+    background-color: #3AE860;
+}
+#yellow {
+    background-color: #FFFA00;
+}
+#pink {
+    background-color: #DA56FF;
+}
+#orange {
+    background-color: #FFB371;
+}
+
+#gamePad {
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+}
+
+#messageArea {
+    color: #000000;
+    position: absolute;
+    text-align: center;
+    top: 65%;
+    width: 100%;
+    left: 0;
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#tactilBlock {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 95;
+}
+
+#timer {
+    color: inherit;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#ranking {
+    overflow: auto;
+    border: 1px solid #000;
+    height: 65%;
+    margin: 2% 0 0;
+    padding: 2%;
+    width: 96%;
+}
+
+#ranking ol {
+    list-style-position: inside;
+    position: relative;
+}
+
+#ranking ol li {
+    text-align: left;
+    color: #ffffff;
+    font-size: 1.5em;
+    margin: 2%;
+}
+
+#ranking ol li span:last-child {
+    float: right;
+}
+
+.itsMe {
+    background-color: #761919;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 500px)  {
+    
+    
+    
+    #messageArea {
+        font-size: 2.5em;
+    }
+    
+}
+
+@media screen and (max-height: 400px)  {
+    
+    #ranking {
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
