@@ -13,7 +13,7 @@ the touch device is use as a gamepad to move the ship and the desktop is the act
 ⋅⋅⋅set the IP/PORT to listen in "/js/app.js", "/js/playerscreen/script.js" , "/js/playground/script.js"
 
 ###Step 2:
-⋅⋅⋅connect the PC at "/playground.html" and then connect the touch device(max 5) at "/"
+⋅⋅⋅connect the PC at "/playground" and then connect the touch device(max 5) at "/"
 
 
 ###Step 3:
